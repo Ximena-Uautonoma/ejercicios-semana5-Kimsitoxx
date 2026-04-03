@@ -5,10 +5,11 @@
 # si la contraseña es correcta muestra "Acceso concedido".
 # sino muestra "Contraseña incorrecta, ingrese contraseña nuevamente por favor."
 '''
-#Codigo de ejemplo...
-clave ="abc123"
-ingreso = "algo"
-while clave != ingreso:
-    ingreso = input("Ingrese clave por favor")
 
-print("Clave ingresada corretamente, Hasta luego")
+contraseña = "1234"
+entrada = "si"
+while contraseña != entrada:
+    entrada = input("Ingrese su contraseña: ")
+    print("Contraseña incorrecta, ingrese contraseña nuevamente")
+
+print("Contraseña correcta")
